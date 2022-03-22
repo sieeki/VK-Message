@@ -6,7 +6,6 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 
 subscribe = "Подписаться на автора в Telegram? (yes/no)"
 
-print(Fore.CYAN + banner)
 print(Fore.CYAN + subscribe)
 choose = input('--> ')
 
